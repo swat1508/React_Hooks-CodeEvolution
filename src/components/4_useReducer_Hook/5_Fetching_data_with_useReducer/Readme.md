@@ -1,5 +1,5 @@
 we will see how to fetchdata using useReducer
- forst we will see how to do it using useState in file  ==>  Fetch_Using_useState
+first we will see how to do it using useState in file  ==>  Fetch_Using_useState
 and then we will see how to do using useReducer in file ==> Fetch_Using_useReducer
 
 

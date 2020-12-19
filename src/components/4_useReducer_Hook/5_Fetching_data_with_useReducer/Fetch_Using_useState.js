@@ -24,7 +24,7 @@ function Fetch_Using_useState() {
 
     return (
         <div>
-            {loading ? 'Loadig ' : posts.title}
+            {loading ? 'Loading ' : posts.title}
             {error ? error : null}
         </div>
     )

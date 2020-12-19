@@ -5,7 +5,7 @@ function UsingHooks_Add_Clear_Interval() {
     const intervalRef = useRef(null);
 
     useEffect(() => {
-       //const interval = = setInterval(() => {
+       //const interval  = setInterval(() => {
         intervalRef.current = setInterval(() => {
              setTimer(prevTimer => prevTimer + 1);
        }, 1000);

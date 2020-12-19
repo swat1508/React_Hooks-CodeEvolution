@@ -1,0 +1,28 @@
+
+  .make_bold{
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .Button{
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add_border{
+    border: 3px solid blue;
+    padding:8px;
+  }
+  /*
+  .Button.Red{
+    background-color: red;
+  }
+  .Button.Green{
+    background-color:green;
+  }
+
+  .red{
+    color: red;
+  }
+  */

@@ -27,11 +27,11 @@ export const PlaceContext = React.createContext();
 
 function App() {
   return (
-  
+
     <div className="App">
       <UserContext.Provider value={'swatantra'}>
       <PlaceContext.Provider value={'India'}>
-     <Comp_C/>
+        <Comp_C/>
      </PlaceContext.Provider>
      </UserContext.Provider>
     </div>
@@ -49,7 +49,8 @@ import {UserContext,PlaceContext} from '../../App.js';
 
 function Comp_F() {
 const userName =  useContext(UserContext);
-const country =  useContext(PlaceContext);
+const country  =  useContext(PlaceContext);
+
     return (
         <div>
             This is Component F
@@ -58,5 +59,5 @@ const country =  useContext(PlaceContext);
     )
 }
 
-export default Comp_F
+export default Comp_F;
 -----------------------------------------------------------------------------

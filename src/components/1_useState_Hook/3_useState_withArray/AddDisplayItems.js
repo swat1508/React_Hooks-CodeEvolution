@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 function AddDisplayItems() {
 
 const [items,setItems]=useState([]);
+
 const addItems=() =>{
     const randomNumber = Math.floor(Math.random()*100);
     console.log('addItems => ' , randomNumber);
@@ -11,11 +12,11 @@ const addItems=() =>{
         value:randomNumber
     }
     setItems([...items,randomItem]);
+    console.log('items : ' , items);
 }
-
     return (
         <div>
-            <button onClick={addItems}>Add A New Item</button>
+            <button onClick={addItems}> Add A New Item : </button>
             
           {items.map(item => (
             <li key={item.id}> {item.value} </li>
@@ -26,5 +27,4 @@ const addItems=() =>{
     )
 }
 
-export default AddDisplayItems
-
+export default AddDisplayItems;
