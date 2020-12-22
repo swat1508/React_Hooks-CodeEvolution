@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 //import HookCounter from './components/1_useState_Hook/1_useState_demo/1_HookCounter';
 //import NameDisplay from './components/1_useState_Hook/2_useState_withObjects/NameDisplay';
-import AddDisplayItems from './components/1_useState_Hook/3_useState_withArray/AddDisplayItems';
+//import AddDisplayItems from './components/1_useState_Hook/3_useState_withArray/AddDisplayItems';
 
-import KeepUpdatingTitle from './components/2_useEffect_Hook/1_useEffect_after_render/KeepUpdatingTitle';
+//import KeepUpdatingTitle from './components/2_useEffect_Hook/1_useEffect_after_render/KeepUpdatingTitle';
 //import RenderOnlyWhenCountChanges from './components/2_useEffect_Hook/2_Conditionally_run_effects/RenderOnlyWhenCountChanges';
 //import AddEventListeners from './components/2_useEffect_Hook/3_useEffect_run__only_once/AddEventListeners';
 //import ToggleMouseDisplayComp from './components/2_useEffect_Hook/4_useEffect_with_cleanup/ToggleMouseDisplayComp';
@@ -15,7 +15,7 @@ import KeepUpdatingTitle from './components/2_useEffect_Hook/1_useEffect_after_r
 
 //import Comp_C from './components/3_useContext_Hook/Comp_C';
 
-import CounterUsingSimpleStateAndAction from './components/4_useReducer_Hook/1_SimpleState_And_Action/CounterUsingSimpleStateAndAction';
+//import CounterUsingSimpleStateAndAction from './components/4_useReducer_Hook/1_SimpleState_And_Action/CounterUsingSimpleStateAndAction';
 //import CounterUsingComplexStateAndAction_1 from './components/4_useReducer_Hook/2_ComplexState_And_Action/CounterUsingComplexStateAndAction_1';
 //import CounterUsingComplexStateAndAction_2 from './components/4_useReducer_Hook/2_ComplexState_And_Action/CounterUsingComplexStateAndAction_2';
 //import CounterUsingComplexStateAndAction_3 from './components/4_useReducer_Hook/2_ComplexState_And_Action/CounterUsingComplexStateAndAction_3';
@@ -39,34 +39,61 @@ import CounterUsingSimpleStateAndAction from './components/4_useReducer_Hook/1_S
 //import Counter_One from './components/8_custom_Hook/1_need_for_custom_hook/Counter_One';
 //import Counter_Two from './components/8_custom_Hook/1_need_for_custom_hook/Counter_Two';
 
-//import Counter_One from './components/9_custom_Hook_2/2_Implementation_Custom_Hook2/Counter_One';
-//import Counter_Two from './components/9_custom_Hook_2/2_Implementation_Custom_Hook2/Counter_Two';
+import Counter_One from './components/9_custom_Hook_2/2_Implementation_Custom_Hook2/Counter_One';
+import Counter_Two from './components/9_custom_Hook_2/2_Implementation_Custom_Hook2/Counter_Two';
 
-//import Comp1 from './components/10_CSS/1_inline_styling_dynamic_style_changes/Comp1';
-//import CompA from './components/10_CSS/2_Styled_Components/CompA';
+import FirstNameLastName from './components/11_practice/1_learn_useState/FirstNameLastName';
+import Countercomp from './components/11_practice/1_learn_useState/CounterComp';
 
-import Comp_A from './components/10_CSS/3_CSS_Modules/Comp_A';
-import CompB from './components/10_CSS/3_CSS_Modules/CompB';
+import Timeclasscomp from './components/11_practice/1_learn_useState/TimeClassComp';
+import TimerCompHook from './components/11_practice/1_learn_useState/TimerCompHook';
 
-import Parent_Comp from './components/7_useRef_Hook/3_Assignment/1_Approach_One/Parent_Comp';
-import ParentComponent from './components/7_useRef_Hook/3_Assignment/2_Approach_Two/ParentComponent';
-import Parent from './components/7_useRef_Hook/3_Assignment/3/Parent';
+import MouseMoveClassContainer from './components/11_practice/1_learn_useState/MouseMoveClassContainer';
+import MouseMoveHookContainer from './components/11_practice/1_learn_useState/MouseMoveHookContainer';
+
+import Simplestateandaction from './components/11_practice/2_learn_useReducer/1_SimpleStateAndAction';
+import ComplexStateAndAction from './components/11_practice/2_learn_useReducer/2_ComplexStateAndAction';
+import Multiplereducer from './components/11_practice/2_learn_useReducer/3_MultipleReducer';
+import DataFetchUseState from './components/11_practice/2_learn_useReducer/4_DataFetch_useState';
+import DataFetchUseReducer from './components/11_practice/2_learn_useReducer/5_DataFetch_useReducer';
+import ContextHook from './components/11_practice/3_learn_useContext/context_hook';
+import CounterUsecontextUsereducer from './components/11_practice/4_learn_useContext_and_useReducer/Counter_UseContext_UseReducer';
 function App() {
     return (
   
     <div className="App">
-    {/* <Parent /> */}
-    <AddDisplayItems />
-
-    <hr/>
-<KeepUpdatingTitle />
-<hr/>
-<CounterUsingSimpleStateAndAction />
-
+   
     
-    </div>
+<FirstNameLastName/>
+<hr/>
+    {/* <Countercomp />
+    <hr/>
+    <Timeclasscomp />
+    <TimerCompHook/>
+    <hr/>
+    <MouseMoveClassContainer />
+    <br/>
+    <MouseMoveHookContainer /> 
+<hr/> */}
+
+ <Simplestateandaction />
+<br/>  <br/>   <br/> 
+<ComplexStateAndAction/>
+<br/> <br/> <br/>
+<Multiplereducer />
+<hr/>
+<DataFetchUseState /> 
+<br/>
+<DataFetchUseReducer />
+<br/>
+<hr/>
+<ContextHook/>
+<br/>
+<CounterUsecontextUsereducer />
+    </div> 
     
   );
 }
 
 export default App;
+
